@@ -7,12 +7,10 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Welcome to the new and improved home for the infamous "I Think You Should League" Fantasy Football league.</p>
+  <p>Thanks to our move to Sleeper, things like this website are now possible. Unfortunately, league history has been reset, but worry not. Our ESPN league is still active if you want to review league history results, along with this handy dandy link https://espn.fantasy-franchise.com/nfl/397592/standings/ that goes into even more detail about our wonderful history.</p>
+  <p>Going forward, this website will auto-populate using the Sleeper API and auto-calculate the power rankings below by looping through the remaining matchups and using your players’ predicted points to set an “optimal” lineup each week and then adding all the scores up. The team with the most points gets 100, everyone else gets a percentage of that max number </p>
+  <p>Feel free to familiarize yourself with the new content and look out for my blog posts going forward, which you'll (hopefully) be able to directly comment on. Gone are the days of google sheets! </p>
 `;
 
 /*   STEP 3   */
