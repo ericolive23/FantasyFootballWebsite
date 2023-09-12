@@ -36,8 +36,7 @@ export const managers = [
         link: 1, // manager array number within this array, or null to link back to all managers page
         image: "/managers/ChrisFFL.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoriteNFLPlayer": 6904, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "favoriteFantasyPlayer": 1466, // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "favoritePlayer": 6904, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "philosophy": "Hard work beats talent when talent don't work hard. Luckily I have both.", // (optional)
       "tradingScale": 8, // 1 - 10 (optional)
       "preferredContact": "Carrier Pigeon",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
