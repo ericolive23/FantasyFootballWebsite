@@ -28,7 +28,7 @@ export const managers = [
       "name": "Eric Oliveira",
       "location": "Springfield", // (optional)
       "bio": "Through the league's first 10 years of history, Eric has amassed a league high 83 wins (combined between regular season and playoffs), 8 playoff visits, 4 championship appearances, and 2 championships (with both coming back to back). A true professional and student of the game, Eric is also a world renowned commissioner who is adored by his leaguemates for his witty humor and unending passion to improve the league experience. He is surely a treat to have in any league. Go Birds!",
-      "photo": "/managers/EricOliveiraFFL.png", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/EricOliveiraFFL.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2013, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "phi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "rival": {
