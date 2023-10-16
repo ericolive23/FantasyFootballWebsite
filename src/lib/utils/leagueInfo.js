@@ -41,26 +41,7 @@ export const managers = [
       "tradingScale": 8, // 1 - 10 (optional)
       "preferredContact": "Carrier Pigeon",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
-  {
-      "managerID": "873269831670075392",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-      "name": "Chris Witwick",
-      "location": "Philadelphia", // (optional)
-      "bio": "Chris is a passionate football enthusiast residing in the vibrant city of Philadelphia. Born on a lovely day, his life revolves around the world of football. While he may not have a conventional job, his dedication shines through his involvement in a fantasy football league. Chris's relentless commitment to managing his below-average team in the league is nothing short of impressive. Despite the challenges the accident, he perseveres, always striving to improve his roster. However, he's quick to acknowledge that the Erics, a set of formidable competitors, set a high bar that's hard to surpass. In the quiet hours of the night, when most people rest, you'll find Chris combing through the waiver wire, searching for hidden gems and sleeper players who could potentially elevate his team's performance. It's this unwavering determination and attention to detail that make Chris a formidable fantasy football manager. Outside of his fantasy football pursuits, Chris has a unique side hustle: he writes children's books. This creative endeavor allows him to share his imagination and storytelling skills with young readers, adding a touch of magic to their lives. In the heart of Philadelphia, a city known for its rich sports culture, Chris stands as a devoted football aficionado and a creative writer, crafting both victories on the virtual gridiron and captivating tales for young minds.
-",
-      "photo": "/managers/ChrisFFLreal.jpg", // square ratio recommended (no larger than 500x500)
-      "fantasyStart": 2013, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "dal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "rival": {
-        name: "Eric", // Can be anything (usually your rival's name)
-        link: 1, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/EricOliveiraFFL.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "favoritePlayer": 142, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "philosophy": "My team is like the United States government. Spend all the money, build back better, but with FAAB.", // (optional)
-      "tradingScale": 8, // 1 - 10 (optional)
-      "preferredContact": "Phone",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-  ]
+    ]
   
   
   /*   !!  !!  IMPORTANT  !!  !! */
