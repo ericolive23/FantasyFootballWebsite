@@ -50,9 +50,9 @@ export const managers = [
       "fantasyStart": 2013, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "dal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "rival": {
-        name: "Eric", // Can be anything (usually your rival's name)
+        name: "The Eric's", // Can be anything (usually your rival's name)
         link: 1, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/EricOliveiraFFL.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        image: "/managers/EricAndre.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 142, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "philosophy": "My team is like the United States government. Spend all the money, build back better, but with FAAB.", // (optional)
