@@ -51,12 +51,48 @@ export const managers = [
       "favoriteTeam": "dal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "rival": {
         name: "The Eric's", // Can be anything (usually your rival's name)
-        link: 1, // manager array number within this array, or null to link back to all managers page
+        link: "null", // manager array number within this array, or null to link back to all managers page
         image: "/managers/EricAndre.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 142, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "philosophy": "My team is like the United States government. Spend all the money, build back better, but with FAAB.", // (optional)
       "tradingScale": 8, // 1 - 10 (optional)
+      "preferredContact": "Phone",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    },
+    {
+      "managerID": "991180287608500224",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "Jon Dinsmore",
+      "location": "The Nether Region", // (optional)
+      "bio": "A true visionary, Jon has dominated every facet of his life and fantasy has been no different. With 2 championships and many more to come, he has left the rest of the league chasing his tail since he entered. Contrary to popular belief, has a perfectly average sized penis.",
+      "photo": "/managers/JonD.jpg", // square ratio recommended (no larger than 500x500)
+      "fantasyStart": 2013, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "rival": {
+        name: "Korey (enjoy those earrings a la mode)", // Can be anything (usually your rival's name)
+        link: "4", // manager array number within this array, or null to link back to all managers page
+        image: "/managers/KoreyF.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      },
+      "favoritePlayer": 910, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "philosophy": "RBs first, second, and third", // (optional)
+      "tradingScale": 1, // 1 - 10 (optional)
+      "preferredContact": "Phone",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    },
+    {
+      "managerID": "732784610907365376",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "Korey Fedirko",
+      "location": "South Philly, the real dirty part", // (optional)
+      "bio": "Bottom feeder, clawing at the heels of the unsuspecting",
+      "photo": "/managers/KoreyF.jpg", // square ratio recommended (no larger than 500x500)
+      "fantasyStart": 2013, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "rival": {
+        name: "Le Merge (he's not just a wirey SOB, but he's a goddamn magician", // Can be anything (usually your rival's name)
+        link: "3", // manager array number within this array, or null to link back to all managers page
+        image: "/managers/JonD.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      },
+      "favoritePlayer": 972, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "philosophy": "I seethe to find a way to devastate my fellow competitors, eventually failing in anguish", // (optional)
+      "tradingScale": 7.22, // 1 - 10 (optional)
       "preferredContact": "Phone",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     ]
