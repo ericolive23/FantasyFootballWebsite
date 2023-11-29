@@ -95,6 +95,24 @@ export const managers = [
       "tradingScale": 7.22, // 1 - 10 (optional)
       "preferredContact": "Phone",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
+    {
+      "managerID": "991188749172191232",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "Kevin Richardson",
+      "location": "Doowrag, NJ", // (optional)
+      "bio": "Even though during every draft, he is told his team sucks, Kevin has amassed the second most wins in the league's history (prior to the start of the 2023 season) making the playoffs in all but two seasons, with a championship in 2017. Just remember his team sucks tho.",
+      "photo": "/managers/KevinR.jpg", // square ratio recommended (no larger than 500x500)
+      "fantasyStart": 2013, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "rival": {
+        name: "The Haters", // Can be anything (usually your rival's name)
+        link: "null", // manager array number within this array, or null to link back to all managers page
+        image: "/managers/everyone.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      },
+      "favoritePlayer": 7591, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "philosophy": "Grip it and rip it", // (optional)
+      "tradingScale": 6.5, // 1 - 10 (optional)
+      "preferredContact": "Carrier Pigeon",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    },
     ]
   
   
