@@ -147,7 +147,7 @@ export const managers = [
       "favoritePlayer": 1947, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "philosophy": "Now that I'm older, I realize this has been training me for being a dad you have no idea what's going to happen week after week or if the one you have is the 'good one' but you invest all your time into it and love it no matter what. Plus like kids, you can always just try again next year.", // (optional)
       "tradingScale": 5.5, // 1 - 10 (optional)
-      "preferredContact": "Phone",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     }
     {
       "managerID": "991181142994862080",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
