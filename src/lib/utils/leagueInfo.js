@@ -140,7 +140,7 @@ export const managers = [
       "fantasyStart": 2013, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "rival": {
-        name: "Me, since I only beat myself", // Can be anything (usually your rival's name)
+        name: "Me since I only beat myself", // Can be anything (usually your rival's name)
         link: "7", // manager array number within this array, or null to link back to all managers page
         image: "/managers/CoreyS.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
@@ -153,7 +153,7 @@ export const managers = [
       "managerID": "991181142994862080",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "George Smith",
       "location": "Summerville", // (optional)
-      "bio": "Wealth, fame, power. I obtained this and everything else the world had to offer. But then, as quickly as I had found it, it faded into the murkey depths of a distant memory. The light of that glory dipped below the new season's horizon and my crew was torn asunder. I did everything I could as captain to keep the ship together... trading for value where I could get it, inviting old crewmates back aboard for another shot at the treasure. It wasn't enough. With a new crew by my side and the bitter disappointment of last season still burning in my chest, I set sail once again in search of another fantaSEA crown.",
+      "bio": "ads",
       "photo": "/managers/GeorgeS.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2013, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "tb", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
