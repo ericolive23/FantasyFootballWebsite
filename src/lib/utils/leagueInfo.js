@@ -147,6 +147,24 @@ export const managers = [
       "favoritePlayer": 1947, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "philosophy": "Now that I'm older, I realize this has been training me for being a dad you have no idea what's going to happen week after week or if the one you have is the 'good one' but you invest all your time into it and love it no matter what. Plus like kids, you can always just try again next year.", // (optional)
       "tradingScale": 5.5, // 1 - 10 (optional)
+      "preferredContact": "Email",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    }
+    {
+      "managerID": "991181142994862080",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "George Smith",
+      "location": "Summerville", // (optional)
+      "bio": "ads",
+      "photo": "/managers/GeorgeS.jpg", // square ratio recommended (no larger than 500x500)
+      "fantasyStart": 2013, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": "tb", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "rival": {
+        name: "Corey Smith", // Can be anything (usually your rival's name)
+        link: "7", // manager array number within this array, or null to link back to all managers page
+        image: "/managers/CoreyS.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      },
+      "favoritePlayer": 240, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "philosophy": "Sometimes Sonja has to go commando. What can I say?", // (optional)
+      "tradingScale": 7, // 1 - 10 (optional)
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     }
     ]
