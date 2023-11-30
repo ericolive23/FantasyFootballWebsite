@@ -113,6 +113,24 @@ export const managers = [
       "tradingScale": 6.5, // 1 - 10 (optional)
       "preferredContact": "Carrier Pigeon",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
+    {
+      "managerID": "992483971810361344",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "Paul Cassaro",
+      "location": "Washington Heights, NYC", // (optional)
+      "bio": "Paul joined the league in 2020, riding the prolific success of Dalvin Cook to a league best 12-3 record and falling just short of a championship in that season's playoff. Although it's been tough sledding since his rookie year, Paul's competitive edge has not wavered. You can usually find him making questionable waiver wire claims and head-scratching trades (that he swears will turn his season around). But give the man some credit - he'll do whatever it takes to win... and when he doesn't, at least the horrible transactions will make for a good laugh.",
+      "photo": "/managers/PaulC.jpg", // square ratio recommended (no larger than 500x500)
+      "fantasyStart": 2020, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": "dal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "rival": {
+        name: "Kevin Richardson", // Can be anything (usually your rival's name)
+        link: "5", // manager array number within this array, or null to link back to all managers page
+        image: "/managers/KevinR.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      },
+      "favoritePlayer": 3294, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "philosophy": "Trading is fun and better than pretending like you're some guru who might have picked a perfect team on draft night.", // (optional)
+      "tradingScale": 10, // 1 - 10 (optional)
+      "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    },
     ]
   
   
