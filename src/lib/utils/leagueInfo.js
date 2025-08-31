@@ -7,10 +7,12 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Welcome to the new and improved home for the infamous "I Think You Should League" Fantasy Football league.</p>
-  <p>Thanks to our move to Sleeper, things like this website are now possible. Unfortunately, league history has been reset, but worry not. Our ESPN league is still active if you want to review league history results, along with this handy dandy link https://espn.fantasy-franchise.com/nfl/397592/standings/ that goes into even more detail about our wonderful history.</p>
-  <p>Going forward, this website will auto-populate using the Sleeper API and auto-calculate the power rankings below by looping through the remaining matchups and using your players’ predicted points to set an “optimal” lineup each week and then adding all the scores up. The team with the most points gets 100, everyone else gets a percentage of that max number </p>
-  <p>Feel free to familiarize yourself with the new content and look out for my blog posts going forward, which you'll (hopefully) be able to directly comment on. Gone are the days of google sheets! </p>
+  <p>Hello! And welcome back to the 2025 iteration of our wonderful league with a new name "Snitches get Stitches"! Great job, Chris!</p>
+  <p>If you're looking for our data pre-sleeper, please use this link https://espn.fantasy-franchise.com/nfl/397592/standings/ that goes into even more detail about our wonderful history.</p>
+  <p>If that ever breaks, this is a hard-coded version of our history: https://docs.google.com/spreadsheets/d/1J-rlTfeORrMaPsI_nKfmD0We6Z-RR3IoteC0zoyZs84/edit?gid=2114764913#gid=2114764913</p>
+  <p>This website will auto-populate using the Sleeper API and auto-calculate the power rankings below by looping through the remaining matchups and using your players’ predicted points to set an “optimal” lineup each week and then adding all the scores up. The team with the most points gets 100, everyone else gets a percentage of that max number </p>
+  <p>It also has a ton of other really cool features like records, rivalry tracking, and the BLOG.</p>
+  <p>Good luck as always and Kevin's team sucks!</p>
 `;
 
 /*   STEP 3   */
@@ -167,7 +169,25 @@ export const managers = [
       "tradingScale": 7, // 1 - 10 (optional)
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     }
-    ]
+    {
+      "managerID": "991188749172191232",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "Mike Zanfardino",
+      "location": "Denville", // (optional)
+      "bio": "Loves being a dad. Also loves drafting players past their prime because he believes that experience wins championships.",
+      "photo": "/managers/MikeZ.jpg", // square ratio recommended (no larger than 500x500)
+      "fantasyStart": 2013, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": "den", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "rival": {
+        name: "Anti-abortionists", // Can be anything (usually your rival's name)
+        link: "null", // manager array number within this array, or null to link back to all managers page
+        image: "/managers/question.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      },
+      "favoritePlayer": 559, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "philosophy": "Never trade. Always smile. Raise hell. Praise Dale.", // (optional)
+      "tradingScale": 0, // 1 - 10 (optional)
+      "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      }    
+        ]
   
   
   /*   !!  !!  IMPORTANT  !!  !! */
