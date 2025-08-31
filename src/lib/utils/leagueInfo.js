@@ -186,8 +186,26 @@ export const managers = [
       "philosophy": "Never trade. Always smile. Raise hell. Praise Dale.", // (optional)
       "tradingScale": 0, // 1 - 10 (optional)
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-      }    
-        ]
+      },
+      {
+      "managerID": "300740191885197312",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "name": "Eric Schwartz",
+      "location": "The District", // (optional)
+      "bio": "The cooler Eric",
+      "photo": "/managers/Schwartz.jpg", // square ratio recommended (no larger than 500x500)
+      "fantasyStart": 2013, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": "was", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "rival": {
+        name: "oranges", // Can be anything (usually your rival's name)
+        link: "null", // manager array number within this array, or null to link back to all managers page
+        image: "/managers/question.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      },
+      "favoritePlayer": 11566, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "philosophy": "Draft all the Maryland players and pray.", // (optional)
+      "tradingScale": 5, // 1 - 10 (optional)
+      "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      }  
+      ]
   
   
   /*   !!  !!  IMPORTANT  !!  !! */
