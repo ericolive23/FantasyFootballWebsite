@@ -1,6 +1,6 @@
 /*   STEP 1   */
 export const leagueID = "1245382005625999360"; // your league ID
-export const leagueName = "Be Kind, Rewind"; // your league name
+export const leagueName = "Snitches get Stitches"; // your league name
 export const dues = 100; // (optional) used in template constitution page
 export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
@@ -170,7 +170,7 @@ export const managers = [
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "managerID": "991188749172191232",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+      "managerID": "991341221505241088",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Mike Zanfardino",
       "location": "Denville", // (optional)
       "bio": "Loves being a dad. Also loves drafting players past their prime because he believes that experience wins championships.",
