@@ -192,7 +192,7 @@ export const managers = [
       "name": "Eric Schwartz",
       "location": "The District", // (optional)
       "bio": "Eric's primary purpose in life and fantasy has been to bring good vibes to the table. In the wise words of Jackie Moon - Everybody Love Everybody. He just wants all his friends to have a good team and have fun! But don't get on his bad side or you might get SQUIRTED!",
-      "photo": "/managers/Schwartz.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/EricSchwartz.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2013, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "was", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "rival": {
