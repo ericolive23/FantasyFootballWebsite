@@ -173,16 +173,16 @@ export const managers = [
       "managerID": "991341221505241088",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Mike Zanfardino",
       "location": "Denville", // (optional)
-      "bio": "Loves being a dad. Also loves drafting players past their prime because he believes that experience wins championships.",
+      "bio": "Non-virgin. Loves being a dad. Also loves drafting players past their prime because he believes that experience wins championships.",
       "photo": "/managers/MikeZ.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2013, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "den", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "rival": {
-        name: "Anti-abortionists", // Can be anything (usually your rival's name)
+        name: "His own loose butthole", // Can be anything (usually your rival's name)
         link: "null", // manager array number within this array, or null to link back to all managers page
         image: "/managers/question.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoritePlayer": 559, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "favoritePlayer": 1343, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "philosophy": "Never trade. Always smile. Raise hell. Praise Dale.", // (optional)
       "tradingScale": 0, // 1 - 10 (optional)
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
@@ -191,17 +191,17 @@ export const managers = [
       "managerID": "300740191885197312",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Eric Schwartz",
       "location": "The District", // (optional)
-      "bio": "The cooler Eric",
+      "bio": "Eric's primary purpose in life and fantasy has been to bring good vibes to the table. In the wise words of Jackie Moon - Everybody Love Everybody. He just wants all his friends to have a good team and have fun! But don't get on his bad side or you might get SQUIRTED!",
       "photo": "/managers/Schwartz.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2013, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "was", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "rival": {
-        name: "oranges", // Can be anything (usually your rival's name)
+        name: "Mike - Its a gentleman's rivalry", // Can be anything (usually your rival's name)
         link: "null", // manager array number within this array, or null to link back to all managers page
-        image: "/managers/question.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        image: "/managers/MikeZ.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 11566, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "philosophy": "Draft all the Maryland players and pray.", // (optional)
+      "philosophy": "Studs and wildcards. High Highs and Low Lows. Go Terps.", // (optional)
       "tradingScale": 5, // 1 - 10 (optional)
       "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
       }  
