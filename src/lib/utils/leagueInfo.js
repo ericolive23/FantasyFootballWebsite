@@ -174,7 +174,7 @@ export const managers = [
       "name": "Mike Zanfardino",
       "location": "Denville", // (optional)
       "bio": "Non-virgin. Loves being a dad. Also loves drafting players past their prime because he believes that experience wins championships.",
-      "photo": "/managers/MikeZ.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/MikeZ.JPG", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2013, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "den", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "rival": {
@@ -198,7 +198,7 @@ export const managers = [
       "rival": {
         name: "Mike - Its a gentleman's rivalry", // Can be anything (usually your rival's name)
         link: "null", // manager array number within this array, or null to link back to all managers page
-        image: "/managers/MikeZ.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        image: "/managers/MikeZ.JPG", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 11566, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "philosophy": "Studs and wildcards. High Highs and Low Lows. Go Terps.", // (optional)
